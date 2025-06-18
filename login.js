@@ -1,7 +1,6 @@
 // login.js
 let users = JSON.parse(localStorage.getItem("users") || "{}");
 
-
 document.getElementById("loginForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
