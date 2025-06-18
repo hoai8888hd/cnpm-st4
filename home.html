@@ -1,0 +1,9 @@
+<script>
+  if (
+    localStorage.getItem("isLoggedIn") !== "true" &&
+    sessionStorage.getItem("isLoggedIn") !== "true"
+  ) {
+    location.href = "/login.html";
+  }
+</script>
+<h1>Chào mừng bạn đã đăng nhập thành công!</h1>

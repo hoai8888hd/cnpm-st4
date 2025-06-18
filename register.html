@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đăng ký</title>
+  <style>
+    .error { color: red; display: none; }
+    .error-border { border: 2px solid red; }
+  </style>
+</head>
+<body>
+  <form id="registerForm">
+    <input type="text" id="username" placeholder="Username"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <input type="password" id="confirmPassword" placeholder="Nhập lại Password"><br>
+    <button type="submit">Đăng ký</button>
+    <p id="msg" class="error"></p>
+  </form>
+  <a href="login.html">Quay lại đăng nhập</a>
+
+  <script src="register.js"></script>
+</body>
+</html>
